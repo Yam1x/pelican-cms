@@ -37,7 +37,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
         with:
-          images: ghcr.io/tourmalinecore/pelican-cms
+          images: ghcr.io/yam1x/pelican-cms
           tags: |
             # minimal (short sha)
             type=sha
